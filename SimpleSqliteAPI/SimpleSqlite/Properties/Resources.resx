@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CannotAddColumnFromOtherTableToPK" xml:space="preserve">
+    <value>Can not add column "{0}" to the primary key of table "{1}". The column does not belong to the table.</value>
+  </data>
+  <data name="CannotAddDuplicatedPrimaryKey" xml:space="preserve">
+    <value>Can not add the row to the table "{0}". The table already contains a row with the same primary key value.</value>
+  </data>
+  <data name="CannotAddForeignKeyToAttachedTable" xml:space="preserve">
+    <value>Can not add the foreign key column "{0}" to the table "{1}". Adding foreign keys to existing tables is not supported by SQLite.</value>
+  </data>
+  <data name="CannotAddForeignKeyToColumnWithoutTable" xml:space="preserve">
+    <value>Can not add the foreign key column "{0}" to the table "{1}". Specified primary key column "{2}" should be linked with a table.</value>
+  </data>
+  <data name="CannotAddForeignKeyToNotPrimary" xml:space="preserve">
+    <value>Can not add the foreign key column "{0}" to the table "{1}". Specified primary key column "{2}" from table "{3}" is not a primary key column.</value>
+  </data>
+  <data name="CannotAddNotNullWithoutValue" xml:space="preserve">
+    <value>Can not add NotNull column "{0}" to an existing table. Default value must be set.</value>
+  </data>
+  <data name="CannotAddPrimaryKey" xml:space="preserve">
+    <value>Can not add column "{0}". Primary key columns can not be added to existing tables.</value>
+  </data>
+  <data name="CannotAddToAttachedRow" xml:space="preserve">
+    <value>Can not add the cell to column "{0}". The cell for this column already exists.</value>
+  </data>
+  <data name="CannotAverageType" xml:space="preserve">
+    <value>Can not caculate average of the provided type "{0}".</value>
+  </data>
+  <data name="CannotBeNull" xml:space="preserve">
+    <value>Value provided for column "{0}" is null, but the column is not nullable.</value>
+  </data>
+  <data name="CannotChangeAttachedColumn" xml:space="preserve">
+    <value>Can not change column "{0}". Columns added to an existing table can not be changed.</value>
+  </data>
+  <data name="CannotChangePrimaryKey" xml:space="preserve">
+    <value>Can not add or remove column "{0}" to/from primary key. Primary key columns can not be changed in existing tables.</value>
+  </data>
+  <data name="CannotRemoveAttachedCell" xml:space="preserve">
+    <value>Can not remove the cell, as it is linked to existing column "{0}".</value>
+  </data>
+  <data name="CannotRemoveAttachedColumn" xml:space="preserve">
+    <value>Can not remove column "{0}" from table "{1}". Column deletion is not supported by SQLite.</value>
+  </data>
+  <data name="CannotSumTypes" xml:space="preserve">
+    <value>Can not sum arguments of types "{0}" and "{1}".</value>
+  </data>
+  <data name="CellAlreadyAttached" xml:space="preserve">
+    <value>Can not add cell "{0}" to the row. The cell is already added to another row.</value>
+  </data>
+  <data name="CellAlreadyAttachedToInvalidColumn" xml:space="preserve">
+    <value>Can not link cell "{0}" to the current table. The cell already belongs to a column from another table.</value>
+  </data>
+  <data name="ColumnAlreadyAttached" xml:space="preserve">
+    <value>Can not add column "{0}" to table "{1}". The column is already added to another table.</value>
+  </data>
+  <data name="ColumnIsNotForeignKey" xml:space="preserve">
+    <value>Can not add foreign key cell into column "{0}". The column is not a foreign key column.</value>
+  </data>
+  <data name="ColumnIsNotForeignKeyToPrimaryRow" xml:space="preserve">
+    <value>Can not add foreign key cell into column "{0}". The column's foreign key is related to table "{1}", but the primary row table is "{2}".</value>
+  </data>
+  <data name="ColumnNotFound" xml:space="preserve">
+    <value>Column with a name "{0}" is not found.</value>
+  </data>
+  <data name="DuplicatedCell" xml:space="preserve">
+    <value>A cell already exists in the same row and column "{0}".</value>
+  </data>
+  <data name="DuplicatedColumn" xml:space="preserve">
+    <value>A column with the same name "{0}" already exists in the table "{1}".</value>
+  </data>
+  <data name="DuplicatedTable" xml:space="preserve">
+    <value>A table with the same name "{0}" already exists in the database.</value>
+  </data>
+  <data name="InvalidBLOBString" xml:space="preserve">
+    <value>Invalid BLOB string "{0}". BLOB string must contain hexadecimal data in quotes preceded by a single "x" or "X" character.</value>
+  </data>
+  <data name="InvalidColumnDefaultValue" xml:space="preserve">
+    <value>Column "{0}" default value "{1}" is either invalid or does not match column type "{2}".</value>
+  </data>
+  <data name="InvalidColumnName" xml:space="preserve">
+    <value>Invalid column name "{0}". A column name should not be null, empty, whitespace or contain double quote character.</value>
+  </data>
+  <data name="InvalidTableName" xml:space="preserve">
+    <value>Invalid table name "{0}". A table name should not be null, empty, whitespace or contain double quote character.</value>
+  </data>
+  <data name="IsNotSupportedArrayType" xml:space="preserve">
+    <value>Value of type "{0}" have been provided for a list column cell, but it is not one of the supported list types.</value>
+  </data>
+  <data name="MustHaveColumns" xml:space="preserve">
+    <value>Table "{0}" does not have any columns. Zero-column tables are not supported by SQLite.</value>
+  </data>
+  <data name="NullPrimaryColumn" xml:space="preserve">
+    <value>Primary column for foreign key column "{0}" can not be null.</value>
+  </data>
+  <data name="PrimaryRowMustBeAttached" xml:space="preserve">
+    <value>Can not add foreign key cell to column "{0}". Specified primary key row is not linked with a table.</value>
+  </data>
+  <data name="RequiredCellsMissed" xml:space="preserve">
+    <value>Can not add the row to table "{0}". Cells should be added for all non-nullable columns without default value.</value>
+  </data>
+  <data name="RowAlreadyAttached" xml:space="preserve">
+    <value>Can not add the row to table "{0}". The row is already added to another table.</value>
+  </data>
+  <data name="ShouldBeListType" xml:space="preserve">
+    <value>Wrong type provided for a cell in column "{0}". Type should be one of the list types, but actual type is "{1}".</value>
+  </data>
+  <data name="ShouldBeSingleType" xml:space="preserve">
+    <value>Wrong type provided for a cell in column "{0}". Type should be one of the singular types, but actual type is "{1}".</value>
+  </data>
+  <data name="TableAlreadyAttached" xml:space="preserve">
+    <value>Can not add table "{0}" to the database. The table is already added to another database.</value>
+  </data>
+  <data name="TableNotFound" xml:space="preserve">
+    <value>Table with a name "{0}" is not found.</value>
+  </data>
+  <data name="ZeroCellsInsert" xml:space="preserve">
+    <value>Can not add the row to the table "{0}". The row does not have cells. At least one cell should be specified.</value>
+  </data>
+</root>
